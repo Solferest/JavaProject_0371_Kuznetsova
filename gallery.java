@@ -34,7 +34,7 @@ public class User {
     private String email;
     private String password;
     private String user_type;
-    private String _user - id;
+    private int user_id;
 
     public String getName() {
         return name;
@@ -52,8 +52,8 @@ public class User {
         return user_type;
     }
 
-    public String get_user - id() {
-        return _user - id;
+    public int getUser_id() {
+        return _user_id;
     }
 
     public void setName(String name) {
@@ -72,8 +72,8 @@ public class User {
         this.user_type = user_type;
     }
 
-    public void set_user - id(String _user - id) {
-        this._user - id = _user - id;
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
     }
 }
 public class Painters {
@@ -119,7 +119,7 @@ public class Paintings {
 public class Painting {
     private String description;
     private String title;
-    private String id;
+    private int id;
     private String genre;
     private String date;
 
@@ -137,10 +137,10 @@ public class Painting {
         this.title = title;
     }
 
-    public String getID() {
+    public int getID() {
         return id;
     }
-    public void setID(String id) {
+    public void setID(int id) {
         this.id = id;
     }
 
